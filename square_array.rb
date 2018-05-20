@@ -1,3 +1,4 @@
 def square_array(array)
-  array.each {|x| x**2}
+  newarray=[]
+  array.each {|x| newarray<< x**2}
 end
